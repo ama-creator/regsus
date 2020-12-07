@@ -146,7 +146,28 @@
 }
  }
  @media screen and (max-width: 384px){
+  .header-box__contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-right: 0;
+}
+.header-box__contacts:last-child {
+  padding-right: 0;
+}
+.header-top__btn-order {
+  margin-left: 0;
+  margin-top: 10px;
+  padding: 9px 25px;
+}
 
+.header-box{
+  margin: 0 auto;
+  flex-direction: column;
+}
+.tour-about__info-title {
+  font-size: 15px;
+}
  }
 
 // @media screen and (max-width: 764px){
@@ -155,5 +176,4 @@
 //   }
 //   .header-top__btn-order {
 //     margin: 10px 0 0;
-// }
 // }
