@@ -18,7 +18,7 @@ body{
   font-family: $motserrat;
   letter-spacing: normal;
   font-style: normal;
-  overflow-x:hidden
+  overflow-x:hidden;
 }
 
 ul,
@@ -34,7 +34,7 @@ a{
 .line{
   max-width: 34.3em;
   height: .06em;
-  background-color: #fff;
+  background-color: #000;
   position: relative;
   opacity: 0;
   animation: grow 2s forwards;
@@ -84,6 +84,24 @@ a{
 .bottom--line{
   border-bottom: 2px solid rgba(#2f2c34, 0.1);
   margin-bottom: 26px;
+}
+.icon{
+  width: 28px;
+  height: 28px;
+
+}
+
+.insta--color:hover{
+  fill: rgba(#dd4856, .5);
+}
+.facebook--color:hover{
+  fill: rgba(67, 67, 236, .5);
+}
+.google-plus--color:hover{
+  fill: rgba(4, 4, 148, .5);
+}
+.linkedin--color:hover{
+  fill: rgba(40, 40, 165, .9);
 }
 
 @keyframes grow {
